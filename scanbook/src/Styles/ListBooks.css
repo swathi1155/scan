@@ -1,0 +1,62 @@
+.Book {
+  margin: 50px auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.Book h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.Book table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.Book th,
+.Book td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.Book th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.Book tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.Book input[type="text"] {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  width: 100%;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.Book button {
+  padding: 8px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.Book button:hover {
+  background-color: #3e8e41;
+}
+
+.Bookinfo {
+  padding-left: 200px;
+  text-align: center;
+}
